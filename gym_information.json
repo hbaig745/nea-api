@@ -1,0 +1,47 @@
+{
+  "A": {
+    "city": "Leicester",
+    "address": "34 London Road",
+    "always_open": false,
+    "open_time": "10:00",
+    "close_time": "21:00"
+  },
+  "B": {
+    "city": "Nottingham",
+    "address": "24 Baker Way",
+    "always_open": true
+  },
+  "C": {
+    "city": "Birmingham",
+    "address": "4 Privet drive",
+    "always_open": false,
+    "open_time": "6:00",
+    "close_time": "18:00"
+  },
+  "D": {
+    "city": "London",
+    "address": "64 Mesa Road",
+    "always_open": false,
+    "open_time": "9:00",
+    "close_time": "23:59"
+  },
+  "E": {
+    "city": "Bolton",
+    "address": "10 Hilltop Road",
+    "always_open": false,
+    "open_time": "8:00",
+    "close_time": "23:00"
+  },
+  "F": {
+    "city": "Liverpool",
+    "address": "67 Gleneagles Avenue",
+    "always_open": true
+  },
+  "G": {
+    "city": "Manchester",
+    "address": "39 Saxborough Street",
+    "always_open": false,
+    "open_time": "00:00",
+    "close_time": "17:00"
+  }
+}
