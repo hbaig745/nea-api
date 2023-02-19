@@ -129,6 +129,8 @@ def classes():
         for r in cursor.fetchall():
             temp.append(r)
 
+        temp = str(temp).replace('[','').replace(']','').replace("'", '"')
+
         return temp
 
     if request.method == 'POST':
@@ -149,7 +151,7 @@ def booked_classes():
     if request.method == 'GET':
         username = request.args.get('username')
         GET_BOOKED_CLASSES = f"SELECT Classes.ClassName FROM UserClass INNER JOIN Classes ON Classes.ClassID = UserClass.ClassID WHERE UserClass.Username = '{username}'"
-    
+
         with sqlite3.connect('database.db') as connection:
             cursor = connection.cursor()
             cursor.execute(GET_BOOKED_CLASSES)
